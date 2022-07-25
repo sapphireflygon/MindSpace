@@ -13,7 +13,7 @@ const ColouringBookContainer = () => {
     const [selection, setSelection] = useState('default');
 
     const handleImageSelection = (selection) => {
-        setSelection(selection)
+        setSelection(selection);
     }
 
     const handleTouchImageSelection = (selection, event) => {

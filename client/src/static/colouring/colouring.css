@@ -1,3 +1,4 @@
+/*********** SVG stylings ************/
 .colouring-svg {
     fill-rule:evenodd;
     clip-rule:evenodd;
@@ -10,21 +11,27 @@
     image-rendering:optimizeQuality;
     line-height: 5em;
 }
+
 #mandala-1 {
     stroke-width:3.55px;
 }
+
 #mandala-2 {
     stroke-width:3.55px;
 }
+
 #village-stairs {
     stroke-width:0.5px;
 }
+
 .fil1 {
     fill: #121212;
 }
+
 .fil0{
     fill: white;
 }
+
 path {
     cursor: pointer;
     transition: fill 0.5s;
@@ -90,8 +97,6 @@ path {
 
     .dowload-button-flex {
         display:flex;
-        /* justify-content: flex-end; */
-        
     }
 
     .colouring-title {
@@ -163,6 +168,7 @@ path {
         margin-left: 20px;
     }
 }
+
 /************ Small screen sizes *************/
 @media screen and (max-width: 700px) {
 

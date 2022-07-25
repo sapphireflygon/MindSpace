@@ -2,7 +2,6 @@ import React from 'react'
 import village from '../../static/colouring/VillageStairsImage.png';
 import mandala1 from '../../static/colouring/Mandala1Image.png';
 import mandala2 from '../../static/colouring/Mandala2Image.png';
-import '../../static/colouring/defaultpage.css'
 import "../../static/colouring/colouring.css";
 
 
