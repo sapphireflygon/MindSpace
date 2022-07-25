@@ -97,8 +97,6 @@ function App() {
     setToggleModal(false)
   }
 
-  console.log(audioIndex, " << this is selected audioIndex in audioData")
-
   const onNextClick = () => {
     if(selected !== null){
       if (audioIndex < audioData.length - 1) {
